@@ -1,0 +1,60 @@
+body{
+  background-color: black;
+}
+h1{
+  text-align: center;
+  color: white;
+}
+
+button{
+  margin: 0;
+	padding: 0;
+	border: 0;
+	background: none;
+	font-size: 100%;
+}
+
+#InputTxt{
+position: relative;
+
+left: 2%;
+width: 80%;
+height: 27px;
+}
+
+#AddBtn{
+  position: relative;
+  top:33%;
+  left: 2.1%;
+  width: 15%;
+  background-color: #fff;
+  height: 33px;
+}
+
+.topblock{
+  display: flex;
+  margin: auto;
+  width: 30%;
+  padding: 1%;
+  background-color: darkgrey;
+  border-bottom: 5px solid #fff;
+}
+
+.container{
+  display: flex;
+  margin: auto;
+  margin-top: 1%;
+  width: 30%;
+  background-color: darkgrey;
+  border-bottom: 5px solid #fff;
+}
+
+.element_grid{
+  display: flex;
+  position: relative;
+}
+
+.view{
+  display: flex;
+  position: absolute;
+}
